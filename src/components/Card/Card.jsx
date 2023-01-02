@@ -1,6 +1,6 @@
 const Card = (props) => {
   return ( 
-    <div class='card'>
+    <div className='card'>
       <p> {props.text} </p>
     </div>
   );

@@ -13,15 +13,20 @@
 .list{
   min-height: 400px;
   width: 400px;
-  background-color: red;
+  min-width:400px;
+  background-color: white;
   padding: 10px;
   border-radius: 25px;
+  margin-bottom: 10px;
+  max-height: 70vh;
+  overflow-y: scroll;
 }
 
 .list-header{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color:#282c34;
 }
 
 .card-add-btn{
@@ -31,20 +36,28 @@
   font-size:large;
   font-weight:bolder;
   border-radius:25%;
-  background-color: blue;
+  background-color: #282c34;
   color:white;
   border:none;
+}
+
+.card-add-btn:hover{
+  background-color: #282c3470;
 }
 
 .card{
   width: 380px;
   min-height: 100px;
-  background-color: blue;
+  background-color: #282c34;
   margin-top: 15px;
   text-align: left;
   font-size: large;
   border-radius: 25px;
   padding:10px;
+}
+
+.card:hover{
+  background-color: #282c3470;
 }
 
 #list-space{
@@ -53,4 +66,16 @@
   align-items: flex-start;
   justify-content: center;
   gap: 20px;
+  overflow-x: scroll;
+  width: 95vw;
+}
+
+#add-new-list{
+  padding:10px;
+  background-color: white;
+  border-radius: 5px;
+  border:none;
+  color:#282c34;
+  font-weight: bold;
+  font-size: large;
 }
