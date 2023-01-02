@@ -1,7 +1,7 @@
 const Card = (props) => {
   return ( 
     <div class='card'>
-      <p> This is some sample text for the cards </p>
+      <p> {props.text} </p>
     </div>
   );
 }
