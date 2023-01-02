@@ -18,6 +18,23 @@
   border-radius: 25px;
 }
 
+.list-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card{
+  width: 380px;
+  min-height: 100px;
+  background-color: blue;
+  margin-top: 15px;
+  text-align: left;
+  font-size: large;
+  border-radius: 25px;
+  padding:10px;
+}
+
 #list-space{
   margin-top: 10px;
   display: flex;
